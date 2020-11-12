@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import styled, {keyframes} from 'styled-components';
 
-
 const StyledWrapper = styled.div`
     display: flex;
     width: 100vw;
