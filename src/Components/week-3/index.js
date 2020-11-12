@@ -21,10 +21,19 @@ const StyledButton = styled.button`
     margin: 2%;
 `;
 
-const Button = (props) => {
-    const {children, color} = props;
-    return <StyledButton color={color}z> {children} </StyledButton>;
-}
+export const Button = (props) => {
+    const { children, color, disabled, hoverColor, ...other } = props;
+    return (
+      <StyledButton
+        color={disabled ? "grey" : color}
+        disabled={disabled}
+        {...other}
+      >
+        {" "}
+        {children}{" "}
+      </StyledButton>
+    );
+  };
 
 const Week3 = () => {
     return (
