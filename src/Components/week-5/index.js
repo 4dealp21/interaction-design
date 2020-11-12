@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import closeIcon from "./Assets/close_icon.svg";
-import { Button } from "../week-3/";
+import { Button } from './../week-3'
 import { Swipeable } from 'react-swipeable';
 
 
@@ -85,7 +85,7 @@ const Week5 = () => {
                             }
                     </StyledSideNav> 
 
-            <Button onClick={handleOpen} color="#1200ee"> Open Nav </Button>
+                <Button onClick={handleOpen} color="#1200ee"> Open Nav </Button>
 
                 </StyleWrapper>
             </Swipeable>
