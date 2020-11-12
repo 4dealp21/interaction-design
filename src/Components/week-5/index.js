@@ -58,24 +58,38 @@ const Week5 = () => {
         setNavOpen(true);
     }
 
-    return (<>
-        <StyleWrapper>
-           <StyledSideNav open={navOpen}>
-                    <StyledCloseIcon onClick={handleClose} src={closeIcon} />
-                {
-                    navOpen &&
-                    (<StyledNav>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Privacy</li>
-                    </StyledNav>)
+    const handleSwipe = (event) => {
+        if (event.dir === "Right") {
+            setNavOpen(true);
+        }
 
-                }
-            </StyledSideNav> 
+        if (event.dir === "Left") {
+            setNavOpen(false);
+        }
+    }
+
+    return (
+        <>
+            <Swipeable onSwiped={handleSwipe}>
+                <StyleWrapper>
+                    <StyledSideNav open={navOpen}>
+                        <StyledCloseIcon onClick={handleClose} src={closeIcon} />
+                            {
+                                navOpen &&
+                                (<StyledNav>
+                                    <li>Home</li>
+                                    <li>About</li>
+                                    <li>Privacy</li>
+                                </StyledNav>)
+
+                            }
+                    </StyledSideNav> 
 
             <Button onClick={handleOpen} color="#1200ee"> Open Nav </Button>
 
-        </StyleWrapper></>
+                </StyleWrapper>
+            </Swipeable>
+        </>
     )
 };
 
