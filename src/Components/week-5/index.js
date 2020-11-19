@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import closeIcon from "./Assets/close_icon.svg";
-import { Button } from './../week-3'
-import { Swipeable } from 'react-swipeable';
-
+import closeIcon from './Assets/close_icon.svg';
+import { Button } from './../week-3/';
+import { useSwipeable } from 'react-swipeable';
 
 const StyleWrapper = styled.div`
     display: flex;
@@ -51,6 +50,9 @@ const Week5 = () => {
 
     const [navOpen, setNavOpen] = useState(false);
 
+    const handlers = useSwipeable({onSwipedRight: () => setNavOpen(true),
+        onSwipedLeft: () => setNavOpen(false)});
+
     const handleClose = () => {
         setNavOpen(false);
     }
@@ -68,10 +70,11 @@ const Week5 = () => {
         }
     }
 
+
     return (
         <>
-            <Swipeable onSwiped={handleSwipe}>
-                <StyleWrapper>
+            
+                <StyleWrapper {...handlers}>
                     <StyledSideNav open={navOpen}>
                         <StyledCloseIcon onClick={handleClose} src={closeIcon} />
                             {
@@ -88,7 +91,7 @@ const Week5 = () => {
                 <Button onClick={handleOpen} color="#1200ee"> Open Nav </Button>
 
                 </StyleWrapper>
-            </Swipeable>
+            
         </>
     )
 };
