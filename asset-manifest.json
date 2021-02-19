@@ -1,26 +1,28 @@
 {
   "files": {
     "main.css": "/interaction-design/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/interaction-design/static/js/main.f696368d.chunk.js",
-    "main.js.map": "/interaction-design/static/js/main.f696368d.chunk.js.map",
+    "main.js": "/interaction-design/static/js/main.c172d389.chunk.js",
+    "main.js.map": "/interaction-design/static/js/main.c172d389.chunk.js.map",
     "runtime-main.js": "/interaction-design/static/js/runtime-main.150fe60a.js",
     "runtime-main.js.map": "/interaction-design/static/js/runtime-main.150fe60a.js.map",
-    "static/js/2.ae47d86a.chunk.js": "/interaction-design/static/js/2.ae47d86a.chunk.js",
-    "static/js/2.ae47d86a.chunk.js.map": "/interaction-design/static/js/2.ae47d86a.chunk.js.map",
+    "static/js/2.89bb6a47.chunk.js": "/interaction-design/static/js/2.89bb6a47.chunk.js",
+    "static/js/2.89bb6a47.chunk.js.map": "/interaction-design/static/js/2.89bb6a47.chunk.js.map",
     "index.html": "/interaction-design/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/interaction-design/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.ae47d86a.chunk.js.LICENSE.txt": "/interaction-design/static/js/2.ae47d86a.chunk.js.LICENSE.txt",
-    "static/media/Notification.fbe7a433.png": "/interaction-design/static/media/Notification.fbe7a433.png",
-    "static/media/close_icon.19d48b0e.svg": "/interaction-design/static/media/close_icon.19d48b0e.svg",
+    "static/js/2.89bb6a47.chunk.js.LICENSE.txt": "/interaction-design/static/js/2.89bb6a47.chunk.js.LICENSE.txt",
+    "static/media/close_icon.350d0f2a.svg": "/interaction-design/static/media/close_icon.350d0f2a.svg",
     "static/media/eye.cf630013.svg": "/interaction-design/static/media/eye.cf630013.svg",
-    "static/media/loading.6ca71495.gif": "/interaction-design/static/media/loading.6ca71495.gif",
+    "static/media/logo.3b19d448.svg": "/interaction-design/static/media/logo.3b19d448.svg",
+    "static/media/meditation.a51b693f.gif": "/interaction-design/static/media/meditation.a51b693f.gif",
+    "static/media/modal_image.dbf769e3.jpg": "/interaction-design/static/media/modal_image.dbf769e3.jpg",
     "static/media/openeye.48583493.svg": "/interaction-design/static/media/openeye.48583493.svg",
+    "static/media/rocket.11a7c725.svg": "/interaction-design/static/media/rocket.11a7c725.svg",
     "static/media/window.92143c8f.svg": "/interaction-design/static/media/window.92143c8f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.150fe60a.js",
-    "static/js/2.ae47d86a.chunk.js",
+    "static/js/2.89bb6a47.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.f696368d.chunk.js"
+    "static/js/main.c172d389.chunk.js"
   ]
 }
