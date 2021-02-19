@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
-import window from './Assets/window.svg';
-import eye from './Assets/eye.svg';
-import openeye from './Assets/openeye.svg';
+import React, { useState } from "react";
+import styled, { keyframes } from "styled-components";
+import window from "./Assets/window.svg";
+import eye from "./Assets/eye.svg";
+import openeye from "./Assets/openeye.svg";
 import { useForm } from "react-hook-form";
-import { yupResolver } from '@hookform/resolvers/yup';
+import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 
 const schema = yup.object().shape({
@@ -13,6 +13,7 @@ const schema = yup.object().shape({
   });
 
 const StyledWrapper = styled.div`
+    background-color: #f2f2f2; 
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -20,14 +21,27 @@ const StyledWrapper = styled.div`
     align-items: center;
 `;
 
-const StyledHeader = styled.h1`
-    color: #1e57f1;
-    margin-left: 2rem;
+const StyledContainer = styled.div`
+    width: 500px;
+    height: 650px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.05);
+`;
+
+const StyledWindow = styled.img`
+    margin-top: -10px;
+    margin-bottom: 30px;
 `;
 
 const StyledInput = styled.input`
     background: #ffffff;
     border: 1px solid #c7c7c7;
+    border-radius: 7px;
     height: 63px;
     width: 337px;
     padding-left: 10px;
@@ -52,14 +66,19 @@ const StyledButton = styled.button`
     color: #ffff;
     text-align: center;
     font-size: 18px;
+    margin-top: 20px;
     border: 0;
+    border-radius: 7px;
     cursor: pointer;
     &:hover {
-        background: #1C63FF;
+        background: #655BFC;
+    }
+    &:active {
+        background: #4A3FFF;
     }
 `;
 
-const Week4 = () => {
+const LoginForm = () => {
 
     const [showPassword, setShowPassword] = useState(false);
 
@@ -77,7 +96,8 @@ const Week4 = () => {
 
     return(
         <StyledWrapper>
-            <img src={window} />
+            <StyledContainer>
+            <StyledWindow src={window} />
             <form onSubmit={handleSubmit(onSubmit)}>
                 <p>
                     <StyledInput type="text" name="email" placeholder="Email" ref={register()} />
@@ -93,9 +113,10 @@ const Week4 = () => {
                     <StyledButton> Login </StyledButton>
                 </p>
             </form>
+            </StyledContainer>
         </StyledWrapper>
     );
 };
 
 
-export default Week4;
+export default LoginForm;
