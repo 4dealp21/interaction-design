@@ -62,3 +62,15 @@ The whole process is documented in this Read.me file.
 ---
 
 ## 1. Toggle Switch
+
+![toggle swich](./src/assets/toggle-switch-1.png)
+
+---
+
+### Research
+
+---
+
+### Evaluation of guidelines
+
+---
