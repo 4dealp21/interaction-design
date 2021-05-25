@@ -1,74 +1,64 @@
+# UI Interaction Components
 
+#### Hosted at: https://4dealp21.github.io/interaction-design/
 
+---
 
+## Introduction
 
+This repository was developed to showcase five components based on the COM525 Interaction Design module's material.
 
+It's a React-based app, and you can see each component by clicking on the links on the home page.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The whole process is documented in this Read.me file.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+[1. Toggle Switch](#1-toggle-switch)
 
-### `npm start`
+- [Research](#research)
+- [Evaluation of guidelines](#evaluation-of-guidelines)
+- [Planning and design prototyping](#planning-and-design-prototyping)
+- [Coding:](#coding-)
+- [Screencast](#screencast)
+- [Reflection](#reflection)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[2. Login Form](#2-login-form)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [Research](#research-1)
+- [Evaluation of guidelines](#evaluation-of-guidelines-1)
+- [Planning and design prototyping](#planning-and-design-prototyping-1)
+- [Coding](#coding)
+- [Screencast](#screencast-1)
+- [Reflection](#reflection-1)
 
-### `npm test`
+[3. Button](#3-button)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Research](#research-2)
+- [Evaluation of guidelines](#evaluation-of-guidelines-2)
+- [Planning and design prototyping](#planning-and-design-prototyping-2)
+- [Coding](#coding-1)
+- [Screencast](#screencast-2)
+- [Reflection](#reflection-2)
 
-### `npm run build`
+[4. Loading Screen](#4-loading-screen)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Research](#research-3)
+- [Evaluation of guidelines](#evaluation-of-guidelines-3)
+- [Planning and design prototyping](#planning-and-design-prototyping-3)
+- [Coding](#coding-2)
+- [Screencast](#screencast-3)
+- [Reflection](#reflection-3)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+[5. Modal](#5-modal)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Research](#research-4)
+- [Evaluation of guidelines](#evaluation-of-guidelines-4)
+- [Planning and design prototyping](#planning-and-design-prototyping-4)
+- [Coding](#coding-3)
+- [Screencast](#screencast-4)
+- [Reflection](#reflection-4)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## 1. Toggle Switch

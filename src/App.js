@@ -20,7 +20,7 @@ const Home = () => (
 
   <StyledWrapper>
   <nav>
-    <h1>Welcome to Interaction Design</h1>
+    <h1>UI Interaction Components</h1>
     <ul>
       <li>
         <Link to="/toggle-switch">Switch </Link>
