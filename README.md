@@ -73,4 +73,32 @@ The whole process is documented in this Read.me file.
 
 ### Evaluation of guidelines
 
+#### Colour
+
+#### Motion
+
+---
+
+### Planning and design prototyping
+
+---
+
+### Coding:
+
+![toggle switch code](./src/assets/toggle-switch-code.png)
+
+---
+
+### Screencast
+
+![screen cast]()
+
+---
+
+### Reflection
+
+---
+
+[^1]
+
 ---
