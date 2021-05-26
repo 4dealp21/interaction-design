@@ -162,7 +162,7 @@ Here are some screenshots of the switch button in its two states:
 
 # 2.Login Form
 
-![login-form-1](C:\Users\Pedro de Almeida\Desktop\Code\interaction-design\src\assets\login-form-1.png)
+![login-form-1](./src/assets/login-form-1.png)
 
 
 
@@ -222,7 +222,7 @@ Here are some screenshots of the switch button in its two states:
 
 # 3.Button
 
-![login-form-1](C:\Users\Pedro de Almeida\Desktop\Code\interaction-design\src\assets\button-1.png)
+![login-form-1](./src/assets/button-1.png)
 
 
 
@@ -282,7 +282,7 @@ Here are some screenshots of the switch button in its two states:
 
 # 4.Loading Screen
 
-![login-form-1](C:\Users\Pedro de Almeida\Desktop\Code\interaction-design\src\assets\loading-1.png)
+![login-form-1](./src/assets/loading-1.png)
 
 
 
@@ -344,7 +344,7 @@ Here are some screenshots of the switch button in its two states:
 
 # 5.Modal
 
-![login-form-1](C:\Users\Pedro de Almeida\Desktop\Code\interaction-design\src\assets\modal-1.png)
+![login-form-1](./src/assets/modal-1.png)
 
 
 
