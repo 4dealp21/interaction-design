@@ -142,7 +142,9 @@ Here are some screenshots of the switch button in its two states:
 
 ### Screencast
 
-<img src="C:\Users\Pedro de Almeida\Desktop\Code\interaction-design\src\assets\toggle-switch-screencast.gif" alt="screen cast"  />
+```
+![screen cast](./src/assets/button-screencast.gif)
+```
 
 
 
