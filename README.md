@@ -142,9 +142,7 @@ Here are some screenshots of the switch button in its two states:
 
 ### Screencast
 
-```
 ![screen cast](./src/assets/toggle-switch-screencast.gif)
-```
 
 
 
@@ -204,7 +202,7 @@ Here are some screenshots of the switch button in its two states:
 
 ### Screencast
 
-<img src="C:\Users\Pedro de Almeida\Desktop\Code\interaction-design\src\assets\login-form-screencast.gif" alt="screen cast"  />
+![screen cast](./src/assets/login-form-screencast.gif)
 
 
 
@@ -264,7 +262,7 @@ Here are some screenshots of the switch button in its two states:
 
 ### Screencast
 
-<img src="C:\Users\Pedro de Almeida\Desktop\Code\interaction-design\src\assets\button-screencast.gif" alt="screen cast"  />
+![screen cast](./src/assets/button-screencast.gif)
 
 
 
@@ -326,7 +324,7 @@ Here are some screenshots of the switch button in its two states:
 
 ### Screencast
 
-<img src="C:\Users\Pedro de Almeida\Desktop\Code\interaction-design\src\assets\loading-screencast.gif" alt="screen cast"  />
+![screen cast](./src/assets/loading-screencast.gif)
 
 
 
@@ -386,7 +384,7 @@ Here are some screenshots of the switch button in its two states:
 
 ### Screencast
 
-<img src="C:\Users\Pedro de Almeida\Desktop\Code\interaction-design\src\assets\modal-screencast.gif" alt="screen cast"  />
+![screen cast](./src/assets/modal-screencast.gif)
 
 
 
