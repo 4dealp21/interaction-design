@@ -143,7 +143,7 @@ Here are some screenshots of the switch button in its two states:
 ### Screencast
 
 ```
-![screen cast](./src/assets/button-screencast.gif)
+![screen cast](./src/assets/toggle-switch-screencast.gif)
 ```
 
 
