@@ -396,7 +396,11 @@ This button on a website might attract users' attention and get them to click on
 
 ### Reflection
 
+This component was completed quickly and simply, in keeping with his initial idea.
 
+That was made feasible by the GIF picture created in Adobe XD using the *"GIF Maker"* plug-in.
+
+After adding the GIF picture to the website, the only thing left to do was to add the basic text animation *"Loading"* that can be seen in the screencast above.
 
 ---
 
