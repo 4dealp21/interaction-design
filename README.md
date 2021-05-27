@@ -338,12 +338,6 @@ This button on a website might attract users' attention and get them to click on
 
 ---
 
-[^1] 
-
-
-
----
-
 # 4.Loading Screen
 
 ![login-form-1](./src/assets/loading-1.png)
