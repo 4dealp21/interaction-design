@@ -92,7 +92,7 @@ Consider a person waking up and turning on the lights; this is the first encount
 
 
 
-Toggle switches should have an instantaneous impact and not need the user to hit a *"Save"* button to see the outcomes of his input. As [Alita Joyce](https://www.nngroup.com/articles/toggle-switch-guidelines/) [^1], User Experience Specialist with Nielsen Norman Group, says when considering her tea kettle: *"I should not have to flip the switch off and unplug the cord to experience the change in state"*.
+Toggle switches should have an instantaneous impact and not need the user to hit a *"Save"* button to see the outcomes of his input. As [Alita Joyce](https://www.nngroup.com/articles/toggle-switch-guidelines/) , User Experience Specialist with Nielsen Norman Group, says when considering her tea kettle: *"I should not have to flip the switch off and unplug the cord to experience the change in state"*.
 
 
 
@@ -150,11 +150,15 @@ Here are some screenshots of the switch button in its two states:
 
 ### Reflection
 
+The built component may be used in an application for a variety of functionality, such as filtering a search or turning settings on/off.
 
+
+
+The animation that the background does when the switch is turned on differs from the animation that occurs when the switch is turned off, making the screen feel awkward.
 
 ---
 
-[^1] 
+
 
 
 
