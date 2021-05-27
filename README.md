@@ -430,12 +430,6 @@ After adding the GIF picture to the website, the only thing left to do was to ad
 
 ---
 
-[^1] 
-
-
-
----
-
 # 5.Modal
 
 ![login-form-1](./src/assets/modal-1.png)
@@ -446,23 +440,51 @@ After adding the GIF picture to the website, the only thing left to do was to ad
 
 ### Research
 
+If you frequent the Internet, you've probably seen these pop-ups appear on your screen, diverting you from what you're doing or searching for.
 
+
+
+Unwanted modals can degrade the user experience in many circumstances.
+
+
+
+It doesn't mean they're all horrible in fact, some of them are very good. I've subscribed to a number of intriguing newsletters that appeared out of nowhere when I was exploring the web multiple times.
 
 ---
 
 ### Evaluation of guidelines
 
+For the modal to be an important element on the page I considered that the user was surfing a blogpost about User Interface design.
 
 
 
+User Interface Designers frequently need to utilise photos to showcase their work, and *Unsplash* is a great website that can help them find high-quality free stock photographs to use on their projects.
+
+
+
+So, if this individual is reading a UI design essay, chances are they already know about *Unsplash* or will be thankful and eager in learning more about it.
+
+
+
+As a result, the modal is incredibly useful and never bothersome.
+
+
+
+Some of the rules created for this component were focused on simplicity, clear product description, and visual appeal.
+
+
+
+An animation would be a fantastic addition to make it more engaging and less intrusive.
 
 ---
 
 ### Planning and design prototyping
 
+It utilised a browser picture as a background to aid in the mapping and placement of the component on the screen.
 
 
- 
+
+A very rough version of it can be seen next to the modal it was quite useful when turning the design into code.
 
 ![toggle-switch-off](./src/assets/modal-design.png)
 
@@ -486,8 +508,12 @@ After adding the GIF picture to the website, the only thing left to do was to ad
 
 ### Reflection
 
+The modal was chosen as the last component of this project because, when utilised correctly and at the proper moment, it may be highly beneficial to the user and not an irritating additional hurdle between the user and his search.
 
 
----
 
-[^1] 
+This was by far the most challenging and time-consuming component of them all.
+
+
+
+It is possible to conclude that, when used appropriately and in accordance with the standards (as was the case), the modal is a great addition to some websites, improving the user experience.
