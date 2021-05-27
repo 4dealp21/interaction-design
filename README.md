@@ -354,13 +354,25 @@ This button on a website might attract users' attention and get them to click on
 
 ### Research
 
+Loading screens can multiple times be frustrating to the user. No one wants to click on a button and be waiting while that little spinner is circling around, it's annoying.
 
+
+
+To make the waiting a little more pleasant and less irritating, the industry has been using skeleton screens and animated loadings.
+
+
+
+It would be nice to have an illustrated animation as SVG.
 
 ---
 
 ### Evaluation of guidelines
 
+The loading screen's presentation must be smooth and clear, and it must provide feedback to the user on what is happening.
 
+
+
+The only two components required to communicate the message of this component were the basic animation and animated text.
 
 
 
@@ -368,9 +380,23 @@ This button on a website might attract users' attention and get them to click on
 
 ### Planning and design prototyping
 
+As previously said, it would be preferable to have an SVG drawing and code it in order to create a less data and storage using image than the GIF.
 
 
- 
+
+Because of my lack of familiarity in the field, I chose to utilise a GIF picture.
+
+
+
+On Adobe XD, two artboards were produced, one for each state. The animation's concept was to show a person meditating or going through some thoughts and then having an epiphany.
+
+The epiphany is depicted by the second state, in which a light bubble appears on top of her head, as in classic cartoons.
+
+
+
+Then these two artboards were chosen, and the GIF was made using a plug-in called *"GIF Maker"*.
+
+
 
 ![toggle-switch-off](./src/assets/loading-animation-design.png)
 
@@ -465,9 +491,3 @@ After adding the GIF picture to the website, the only thing left to do was to ad
 ---
 
 [^1] 
-
-
-
----
-
-# 
