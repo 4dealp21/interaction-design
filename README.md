@@ -174,13 +174,37 @@ The animation that the background does when the switch is turned on differs from
 
 ### Research
 
+Login forms are ubiquitous, they have become a part of our daily life. Nowadays, there are a variety of login forms to be found.
+
+
+
+This forms play a critical part in the user experience, and if they are not done properly, the user will be frustrated and will most likely abandon the application/website.
+
+
+
+So, in order to keep the user on board, the design of these forms must be done with caution.
+
 
 
 ---
 
 ### Evaluation of guidelines
 
+People despise login forms and try to avoid them as much as possible.
 
+Logging in using a fingerprint on a mobile device, for example, is a great way for individuals to avoid logging in multiple times. On the desktop version, a nice option may be to include a *"Remember me"* button beside the login form, so the user may check it and not have to log in again the next time.
+
+
+
+A good thing to add as well is a *"Forgot password"* button/link so the user can click and be redirected to a page where he will be changing his password. 
+
+
+
+It's a good idea to include a feature that transforms the password format *"*******"* to text *"aaa"* so the user can see what password he's typing and check for misspellings. This feature is most likely to be represented with an eye icon.
+
+
+
+Last but not least, allowing users to login via social media is a smart habit.
 
 
 
@@ -190,7 +214,9 @@ The animation that the background does when the switch is turned on differs from
 
 
 
- 
+The image below shows a login form on a mobile device:
+
+
 
 ![toggle-switch-off](./src/assets/login-form-design.png)
 
@@ -214,11 +240,11 @@ The animation that the background does when the switch is turned on differs from
 
 ### Reflection
 
+Some of the aspects indicated in the *"Evaluation and Guidelines"* section, such as the *"Forgot Password"* link, *"Remember me"* button, and social network login, were not coded.
 
 
----
 
-[^1] 
+It is vital to note that the input fields are appropriately labelled, and there is a *"Not a valid email"* notice that appears when the user inserts a fictitious email, and if the user tries to login without filling out one of the input areas, a message, *"Email/Password needed"*, will appear on the screen. The user will be able to navigate more easily as a result of this.
 
 
 
