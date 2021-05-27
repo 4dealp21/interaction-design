@@ -23,7 +23,7 @@ The whole process is documented in this Read.me file.
 - [Research](#research)
 - [Evaluation of guidelines](#evaluation-of-guidelines)
 - [Planning and design prototyping](#planning-and-design-prototyping)
-- [Coding:](#coding-)
+- [Coding](#coding-)
 - [Screencast](#screencast)
 - [Reflection](#reflection)
 
@@ -160,10 +160,6 @@ The animation that the background does when the switch is turned on differs from
 
 
 
-
-
----
-
 # 2.Login Form
 
 ![login-form-1](./src/assets/login-form-1.png)
@@ -260,13 +256,35 @@ It is vital to note that the input fields are appropriately labelled, and there 
 
 ### Research
 
+As [Will Fanguy](https://www.invisionapp.com/inside-design/comprehensive-guide-designing-ux-buttons/) says in invision blog: *"While they may go unnoticed if they’re implemented properly, buttons are a vital element in creating a positive and productive user experience."*
 
+
+
+This is a true and vital statement.
+
+Buttons play an important part in website and app navigation. Designers and coders frequently refer to them as CTA, which stands for *"Call to Action"*. The name says it all, these CTAs are put in various locations in order for the user to notice them and subsequently click on them.
+
+
+
+These CTAs are crucial because they allow the user to create his or her own journey on the website/app.
 
 ---
 
 ### Evaluation of guidelines
 
+The goal is to bring the user's attention to the button so they can click it, and there are a few principles that must be followed in order for this to happen.
 
+
+
+It is critical to pay close attention to the size of the text inside the button. The design community has agreed that the text should take up one-third of the button's height. It will seem clear and attractive to the eyes if it is vertically aligned with the button.
+
+
+
+Color should also draw the attention of the user. The colour of the button must not only catch the user's attention, but it must also contrast with the font colour so that the user can easily read the text or view the symbol within the button.
+
+
+
+Last but not least, the usage of rounded corners in the design of this button was chosen since certain [studies](https://uxmovement.com/thinking/why-rounded-corners-are-easier-on-the-eyes/) claim that rounded corners improve information processing and bring our attention to the centre of the element.
 
 
 
@@ -274,9 +292,17 @@ It is vital to note that the input fields are appropriately labelled, and there 
 
 ### Planning and design prototyping
 
+It was time to fire up Adobe XD once more and start creating to mimic all of the states that the button would have and how it would appear.
 
 
- 
+
+It was decided to make more than one artboard and test how many button interactions could be presented.
+
+
+
+They are properly named as follows:
+
+
 
 ![toggle-switch-off](./src/assets/button-states-design.png)
 
@@ -300,7 +326,15 @@ It is vital to note that the input fields are appropriately labelled, and there 
 
 ### Reflection
 
+On Adobe XD, this component proved to be one of the most true to his design.
 
+
+
+The requirements were followed, and the end outcome was exactly what was intended, as evidenced by the code.
+
+
+
+This button on a website might attract users' attention and get them to click on it.
 
 ---
 
